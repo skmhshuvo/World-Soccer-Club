@@ -1,0 +1,70 @@
+/* Utilities and Glaboal Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #161616;
+    --secondary-color: #DD0000;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container {
+    padding: 0% 7%;
+}
+
+.primary-btn {
+    background: var(--secondary-color);
+    text-decoration: none;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+.primary-btn > i {
+    margin-left: 10px;
+}
+
+/* Hero Section Starts */
+.hero {
+    background: var(--primary-color);
+    border-radius: 30px;
+    width: 86%;
+    padding: 7% 7% 0;
+    margin-top: 4%;
+    display: flex;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1, p, a {
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.hero-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-image img {
+    height: 600px;
+}
