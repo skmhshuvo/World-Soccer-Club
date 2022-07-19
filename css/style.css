@@ -20,11 +20,26 @@ body {
     text-decoration: none;
     padding: 16px 25px;
     border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.secondary-btn {
+    background: #fff;
+    text-decoration: none;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 500;
 }
 
 .primary-btn > i {
     margin-left: 10px;
 }
+
+
 
 /* Hero Section Starts */
 .hero {
@@ -40,7 +55,7 @@ body {
     flex: 1;
 }
 
-.hero-text h1, p, a {
+.hero-text h1, p {
     color: #fff;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -67,4 +82,24 @@ body {
 
 .hero-image img {
     height: 600px;
+}
+
+
+/* Button Group and Matches */
+.matches {
+    margin-top: 100px;
+}
+
+.btn-group {
+    background: var(--primary-color);
+    width: 252px;
+    height: 225px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-group a{
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
