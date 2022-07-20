@@ -260,4 +260,9 @@ footer > ul > li > a {
     .hero-title {
         font-size: 70px;
     }
+
+    .videos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
