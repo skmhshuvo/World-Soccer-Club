@@ -39,6 +39,17 @@ body {
     margin-left: 10px;
 }
 
+.outline-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
 
 
 /* Hero Section Starts */
@@ -88,18 +99,60 @@ body {
 /* Button Group and Matches */
 .matches {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn-group {
     background: var(--primary-color);
-    width: 252px;
+    width: 312px;
     height: 225px;
     padding: 30px;
     border-radius: 10px;
+    margin-right: 24px;
 }
 
 .btn-group a{
     display: block;
     margin-bottom: 30px;
     border-radius: 10px;
+}
+
+
+/* Match Videos Grid */
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.single-video {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+}
+
+.single-video {
+    width: 100%;
+}
+
+.video-info {
+    padding: 20px;
+}
+
+.video-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.video-info p {
+    color: #444;
+    font-size: 16px;
+}
+
+.video-info span {
+    margin-right: 20px;
 }
