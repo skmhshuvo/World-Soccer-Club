@@ -66,7 +66,7 @@ body {
     flex: 1;
 }
 
-.hero-text h1, p {
+.hero-text h1, .hero-text p {
     color: #fff;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -125,6 +125,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
     row-gap: 24px;
+    width: 100%;
 }
 
 .single-video {
@@ -132,11 +133,9 @@ body {
     flex-direction: column;
     border: 1px solid #E8E8E8;
     border-radius: 15px;
-}
-
-.single-video {
     width: 100%;
 }
+
 
 .video-info {
     padding: 20px;
@@ -210,4 +209,55 @@ footer > ul > li > a {
 .social-icons a:hover {
     background: var(--secondary-color);
     color: #fff;
+}
+
+
+/* Upcoming Page Styles */
+
+.match-time {
+    padding: 50px 10px 30px;
+}
+
+.match-time p {
+    color: var(--primary-color);
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag img {
+    width: 120px;
+}
+
+.flag p {
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+} 
+
+.country-name {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.match-time > p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Responsive Styles */
+@media only screen and (min-width: 992px) and (max-width: 1312px){
+    .hero {
+        padding: 3% 7% 0;
+    }
+
+    .hero-title {
+        font-size: 70px;
+    }
 }
