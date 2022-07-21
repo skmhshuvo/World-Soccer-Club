@@ -163,6 +163,11 @@ body {
     margin-right: 20px;
 }
 
+.view-all {
+    margin-top: 30px;
+    display: none;
+}
+
 /* Footer Section */
 
 footer {
@@ -280,6 +285,10 @@ footer > ul > li > a {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .view-all {
+        display: block;
+    }
+
 }
 
 @media only screen and (min-width: 688px) and (max-width: 992px){
@@ -301,6 +310,10 @@ footer > ul > li > a {
 
     .videos {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        display: block;
     }
 
     .btn-group {
@@ -336,6 +349,10 @@ footer > ul > li > a {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+
+    .view-all {
+        display: block;
     }
 
     .matches {
