@@ -341,7 +341,8 @@ footer > ul > li > a {
     }
 
     .hero-title {
-        font-size: 60px;
+        font-size: 40px;
+        line-height: 40px;
     }
 
     .hero-details {
