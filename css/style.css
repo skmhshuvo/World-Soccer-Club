@@ -94,8 +94,14 @@ body {
 
 .hero-image img {
     height: 600px;
+    animation: imageOpacity 1s ease-in;
 }
 
+/* Hero Image Animation */
+@keyframes imageOpacity {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
 /* Button Group and Matches */
 .matches {
@@ -263,6 +269,13 @@ footer > ul > li > a {
         font-size: 70px;
     }
 
+    .hero-details {
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
     .videos {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -273,6 +286,13 @@ footer > ul > li > a {
     .hero {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .hero-details {
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .matches {
@@ -309,6 +329,13 @@ footer > ul > li > a {
 
     .hero-title {
         font-size: 60px;
+    }
+
+    .hero-details {
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .matches {
